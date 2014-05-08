@@ -9,7 +9,9 @@
 
 (defdb sqlserverdb schema/db-sqlserver)
 
-(defentity users)
+(defentity users
+  (database db)
+  )
 
 (defn create-user [user]
   (insert users

@@ -9,7 +9,7 @@
 
 
 
-(defn test []
+(defn sqltest []
           ;(resp/json (db/postgres-test))
           (resp/json (db/sqlserver-test))
   )
