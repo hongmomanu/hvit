@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8486b832-cd3f-4071-8d9d-5509d75a66de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site.db.h2.db" afterPath="$PROJECT_DIR$/site.db.h2.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.lein-env" afterPath="$PROJECT_DIR$/.lein-env" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stale/extract-native.dependencies" afterPath="$PROJECT_DIR$/target/stale/extract-native.dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/templates/home.html" afterPath="$PROJECT_DIR$/resources/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hvit.log" afterPath="$PROJECT_DIR$/hvit.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hvit.iws" />
@@ -586,7 +581,7 @@
       <workItem from="1399352842098" duration="99000" />
       <workItem from="1399358618595" duration="297000" />
       <workItem from="1399450902659" duration="3747000" />
-      <workItem from="1399531982915" duration="2002000" />
+      <workItem from="1399531982915" duration="2758000" />
     </task>
     <task id="LOCAL-00001" summary="hvit 开发框架">
       <created>1399343133914</created>
@@ -604,11 +599,15 @@
       <created>1399532758361</created>
       <updated>1399532758361</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit&#10;">
+      <created>1399541910768</created>
+      <updated>1399541910768</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16970000" />
+    <option name="totallyTimeSpent" value="17726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="30" width="1346" height="728" extended-state="6" />
