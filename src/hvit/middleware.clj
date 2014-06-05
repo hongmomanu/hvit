@@ -1,6 +1,9 @@
 (ns hvit.middleware
   (:require [taoensso.timbre :as timbre]
             [selmer.parser :as parser]
+            [noir.response :as resp]
+            [clj-http.client :as client]
+            [hvitmiddleware.core :as hvitmd]
             [environ.core :refer [env]]))
 
 (defn log-request [handler]
@@ -9,6 +12,11 @@
       (timbre/debug req)
       (handler req))
     handler))
+
+(defn session-filter [handler]
+  (hvitmd/session-filter handler "http://localhost:3000")
+
+  )
 
 (defn template-error-page [handler]
   (if (env :dev)

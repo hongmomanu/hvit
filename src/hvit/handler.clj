@@ -47,7 +47,7 @@
  (app-handler
    [auth-routes home-routes test-routes app-routes]
    :middleware
-   [middleware/template-error-page middleware/log-request]
+   [middleware/template-error-page middleware/log-request middleware/session-filter]
    :access-rules
    []
    :formats

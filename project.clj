@@ -6,6 +6,7 @@
   :dependencies
   [
    [ring-server "0.3.1"]
+   [hvitmiddleware "0.1.1"]
    [com.h2database/h2 "1.3.175"]
    [org.xerial/sqlite-jdbc "3.7.15-M1"]
    [com.oracle/ojdbc6 "11.2.0.3"]
@@ -14,6 +15,7 @@
 
    [postgresql/postgresql "9.1-901.jdbc4"]
    [environ "0.5.0"]
+   [clj-http "0.9.2"]
    [markdown-clj "0.9.43"]
    [com.taoensso/timbre "3.1.6"]
    [org.clojure/clojure "1.6.0"]

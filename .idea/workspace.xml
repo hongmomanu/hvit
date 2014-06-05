@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8486b832-cd3f-4071-8d9d-5509d75a66de" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site.db.h2.db" afterPath="$PROJECT_DIR$/site.db.h2.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.lein-env" afterPath="$PROJECT_DIR$/.lein-env" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hvit/models/db.clj" afterPath="$PROJECT_DIR$/src/hvit/models/db.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stale/extract-native.dependencies" afterPath="$PROJECT_DIR$/target/stale/extract-native.dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hvit/handler.clj" afterPath="$PROJECT_DIR$/src/hvit/handler.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hvit.log" afterPath="$PROJECT_DIR$/hvit.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hvit/middleware.clj" afterPath="$PROJECT_DIR$/src/hvit/middleware.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hvit/controller/sqltest.clj" afterPath="$PROJECT_DIR$/src/hvit/controller/sqltest.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hvit.iws" />
@@ -69,61 +78,34 @@
       <file leaf-file-name="sqltest.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hvit/controller/sqltest.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="154" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="378">
+            <state line="5" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/templates/home.html">
+      <file leaf-file-name="project.clj" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="94" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="396">
+            <state line="8" column="25" selection-start="147" selection-end="147" vertical-scroll-proportion="0.25396827" vertical-offset="0" max-vertical-offset="1386">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/templates/base.html">
+      <file leaf-file-name="handler.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hvit/handler.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+            <state line="49" column="83" selection-start="1566" selection-end="1580" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1098">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/templates/menu.html">
+      <file leaf-file-name="middleware.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hvit/middleware.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hvit/routes/auth.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="21" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0" vertical-offset="695" max-vertical-offset="1458">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/templates/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/templates/registration.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+            <state line="17" column="2" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
               <folding />
             </state>
           </provider>
@@ -141,16 +123,25 @@
       <file leaf-file-name="schema.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hvit/models/schema.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="63" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1530">
+            <state line="33" column="35" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.clj" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="db.clj" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hvit/models/db.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="12" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="846">
+            <state line="8" column="17" selection-start="200" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1116">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hvit/routes/test.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="34" selection-start="239" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
               <folding />
             </state>
           </provider>
@@ -170,22 +161,22 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/hvit/routes/auth.clj" />
-        <option value="$PROJECT_DIR$/src/hvit/handler.clj" />
         <option value="$PROJECT_DIR$/src/hvit/controller/test.clj" />
         <option value="$PROJECT_DIR$/src/hvit/models/schema.clj" />
         <option value="$PROJECT_DIR$/resources/templates/home.html" />
-        <option value="$PROJECT_DIR$/project.clj" />
-        <option value="$PROJECT_DIR$/src/hvit/controller/sqltest.clj" />
-        <option value="$PROJECT_DIR$/src/hvit/routes/test.clj" />
         <option value="$PROJECT_DIR$/src/hvit/models/db.clj" />
+        <option value="$PROJECT_DIR$/src/hvit/routes/test.clj" />
+        <option value="$PROJECT_DIR$/src/hvit/controller/sqltest.clj" />
+        <option value="$PROJECT_DIR$/src/hvit/handler.clj" />
+        <option value="$PROJECT_DIR$/src/hvit/middleware.clj" />
+        <option value="$PROJECT_DIR$/project.clj" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
     <option name="y" value="30" />
-    <option name="width" value="1346" />
-    <option name="height" value="728" />
+    <option name="width" value="1366" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -215,6 +206,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -284,7 +276,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,7 +298,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hvit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hvit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hvit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,7 +358,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -581,7 +594,9 @@
       <workItem from="1399352842098" duration="99000" />
       <workItem from="1399358618595" duration="297000" />
       <workItem from="1399450902659" duration="3747000" />
-      <workItem from="1399531982915" duration="2758000" />
+      <workItem from="1399531982915" duration="6236000" />
+      <workItem from="1400218502410" duration="4472000" />
+      <workItem from="1401854539853" duration="11517000" />
     </task>
     <task id="LOCAL-00001" summary="hvit 开发框架">
       <created>1399343133914</created>
@@ -603,14 +618,18 @@
       <created>1399541910768</created>
       <updated>1399541910768</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial commit&#10;">
+      <created>1399597332376</created>
+      <updated>1399597332376</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17726000" />
+    <option name="totallyTimeSpent" value="37193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="30" width="1346" height="728" extended-state="6" />
+    <frame x="0" y="30" width="1366" height="738" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -626,18 +645,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24923077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -663,39 +682,24 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/templates/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hvit/routes/auth.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="21" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0" vertical-offset="695" max-vertical-offset="1458">
-          <folding />
-        </state>
+        <state line="50" column="21" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0" vertical-offset="695" max-vertical-offset="1458" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/templates/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/templates/registration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/templates/about.html">
@@ -750,9 +754,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hvit/routes/auth.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.0" vertical-offset="874" max-vertical-offset="1458">
-          <folding />
-        </state>
+        <state line="75" column="0" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.0" vertical-offset="874" max-vertical-offset="1458" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hvit/controller/sqltest.clj">
@@ -807,9 +809,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hvit/routes/auth.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.0" vertical-offset="874" max-vertical-offset="1458">
-          <folding />
-        </state>
+        <state line="75" column="0" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.0" vertical-offset="874" max-vertical-offset="1458" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hvit/controller/sqltest.clj">
@@ -864,9 +864,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hvit/routes/auth.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.0" vertical-offset="874" max-vertical-offset="1458">
-          <folding />
-        </state>
+        <state line="75" column="0" selection-start="2071" selection-end="2071" vertical-scroll-proportion="0.0" vertical-offset="874" max-vertical-offset="1458" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hvit/controller/sqltest.clj">
@@ -907,44 +905,9 @@
         <state line="15" column="0" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hvit/handler.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="50" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="541" max-vertical-offset="1098" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hvit/models/schema.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="63" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/templates/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/templates/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="549">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/templates/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/templates/about.html">
@@ -956,40 +919,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="94" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="396">
+        <state line="15" column="94" selection-start="469" selection-end="469" vertical-scroll-proportion="0.505618" vertical-offset="0" max-vertical-offset="534" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="549" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hvit/routes/auth.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="21" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0" vertical-offset="695" max-vertical-offset="1458" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hvit/models/db.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="200" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1116">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
+    <entry file="file://$PROJECT_DIR$/src/hvit/models/schema.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="22" selection-start="2458" selection-end="2458" vertical-scroll-proportion="-18.481482" vertical-offset="743" max-vertical-offset="1350" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hvit/controller/sqltest.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="154" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+        <state line="33" column="35" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hvit/routes/test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="254" selection-end="254" vertical-scroll-proportion="0.4163701" vertical-offset="0" max-vertical-offset="562">
+        <state line="10" column="34" selection-start="239" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hvit/routes/auth.clj">
+    <entry file="file://$PROJECT_DIR$/src/hvit/controller/sqltest.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="21" selection-start="1536" selection-end="1536" vertical-scroll-proportion="0.0" vertical-offset="695" max-vertical-offset="1458">
+        <state line="5" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hvit/models/db.clj">
+    <entry file="file://$PROJECT_DIR$/src/hvit/handler.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="846">
+        <state line="49" column="83" selection-start="1566" selection-end="1580" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="1098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hvit/middleware.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="2" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="147" selection-end="147" vertical-scroll-proportion="0.25396827" vertical-offset="0" max-vertical-offset="1386">
           <folding />
         </state>
       </provider>

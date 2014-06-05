@@ -4,6 +4,7 @@
   (:require [hvit.models.schema :as schema]))
 
 (defdb db schema/db-spec)
+(defdb sqlitedb schema/db-spec-sqlite)
 
 (defdb postgresdb schema/db-postgres)
 
@@ -28,6 +29,20 @@
   (first (select users
                  (where {:id id})
                  (limit 1))))
+
+(defn h2db-test[]
+
+  (with-db db
+    (exec-raw ["SELECT 1 WHERE 1 = ? " [1]] :results))
+
+  )
+
+(defn sqlite-test []
+  (with-db sqlitedb
+    (exec-raw ["SELECT \"sqlite\" WHERE 1 = ? " [1]] :results)
+    )
+
+  )
 
 (defn postgres-test[]
 
