@@ -6,7 +6,7 @@
   :dependencies
   [
    [ring-server "0.3.1"]
-   [hvitmiddleware "0.1.1"]
+   [hvitmiddleware "0.1.7"]
    [com.h2database/h2 "1.3.175"]
    [org.xerial/sqlite-jdbc "3.7.15-M1"]
    [com.oracle/ojdbc6 "11.2.0.3"]
